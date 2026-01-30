@@ -1,3 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
 
 name: bank-of-canada-forex-mcp
+services:
+  fastmcp:
+    project: .
+    language: py
+    docker:
+      path: ./Dockerfile
+    host: containerapp
