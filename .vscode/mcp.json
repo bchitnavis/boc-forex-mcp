@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "csv-analyst": {
+      "type": "stdio",
+      "command": "C:\\Users\\pchitnbh\\repos\\mcp\\.venv\\Scripts\\fastmcp.exe",
+      "args": ["run", "main.py"],
+      "env": {
+        "CSV_MCP_BASEDIR": "C:\\Users\\pchitnbh\\Documents",
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
